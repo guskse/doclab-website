@@ -128,7 +128,7 @@ body {
   font-size: 1.6rem;
   color: var(--independece);
   line-height: 1.8;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 body.loaded {
@@ -146,6 +146,7 @@ body.nav-active {
 .container {
   padding-inline: 16px;
   overflow-x:hidden;
+  overflow-y:hidden;
 }
 
 .headline-lg {
