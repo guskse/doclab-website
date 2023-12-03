@@ -533,6 +533,7 @@ body.nav-active {
 
 .service-card {
   text-align: center;
+  margin-top:80px;
 }
 
 .service-card .card-icon,
