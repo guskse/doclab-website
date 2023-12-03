@@ -145,6 +145,7 @@ body.nav-active {
 
 .container {
   padding-inline: 16px;
+  overflow-x:hidden;
 }
 
 .headline-lg {
@@ -378,7 +379,7 @@ body.nav-active {
 
 .navbar {
   right: -300px;
-  max-width: 300px; /*mudar para 100%*/
+  max-width: 100%; /*mudar para 100%*/
   background-color: var(--rich-black-fogra-29);
   z-index: 1;
   transition: 0.25s var(--cubic-in);
@@ -390,6 +391,7 @@ body.nav-active {
   z-index: 3;
   transform: translateX(-300px);
   transition: 0.5s var(--cubic-out);
+
 }
 
 .navbar-top {
